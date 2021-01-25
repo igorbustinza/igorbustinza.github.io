@@ -34,8 +34,9 @@ p {
   background-color: rgba(0,255,0,0.2);
 }
 
+
 .output {
-  background-color: rgba(0,0,255,0.2);
+  background-color: rgba(128,255,0);
   color: #000000;
 }
 

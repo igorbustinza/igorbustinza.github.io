@@ -1,3 +1,11 @@
+var es_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+if(es_chrome){
+			    //alert("El navegador que se está utilizando es Chrome");
+} else {
+			    alert("El navegador que se está utilizando reconoce los comandos de voz");
+}
+
+
 var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
 var SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList
 var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent
